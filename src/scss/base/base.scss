@@ -14,6 +14,15 @@ body {
     overflow-x: hidden;
     font-size: 16px;
     height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    color: $text;
 }
 
 h1,
@@ -45,9 +54,10 @@ a {
     text-decoration: none;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    color: $text;
+button {
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    background: transparent;
 }
