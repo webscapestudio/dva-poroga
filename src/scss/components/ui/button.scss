@@ -8,4 +8,16 @@
     &:hover {
         background: $redHover;
     }
+
+    &.lg {
+        padding: 16px 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        &.lg {
+            padding: 14px 24px;
+        }
+    }
 }

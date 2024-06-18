@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
-<head>
-    @@include('./components/head.html')
-    <title>Lux Bags</title>
-</head>
-<body>
-@@include('./components/header/header.html')
+    <head>
+        @@include('./components/head.html')
+        <title>Два порога | Главная страница</title>
+    </head>
+    <body>
+        @@include('./components/header/header.html')
 
-<main>
-    <section>
-        <div class="container">
-            asd
-        </div>
-    </section>
-</main>
+        <main>
+            <section class="index-hero-section section">
+                <div class="container">
+                    <h1 class="h1 uppercase">
+                        <span>Ремонтные пороги</span> <br />
+                        и <span>арки</span> без предоплат
+                    </h1>
+                    <p class="index-hero__subtitle">И бесплатной доставкой</p>
 
+                    <div class="index-hero__inner">
+                        <div class="index-hero__wrap">
+                            <p class="index-hero-callout">
+                                Оставьте заявку, мы свяжемся с вами в течении
+                                <span>7 минут</span> и ответим на все вопросы.
+                            </p>
 
+                            <form class="index-hero-form" action="">
+                                <input
+                                    type="text"
+                                    placeholder="Имя"
+                                    class="input"
+                                    required
+                                />
+                                <input
+                                    type="tel"
+                                    placeholder="+7 (___) ___ __ __"
+                                    class="input"
+                                    required
+                                />
+                                <button class="btn lg" type="submit">
+                                    Отправить
+                                </button>
 
-<script src="./js/main.min.js"></script>
-</body>
+                                <p class="copyright">
+                                    Нажимая кнопку “Отправить” вы соглашаетесь с
+                                    нашей
+                                    <a href="" download="">
+                                        политикой конфиденциальности
+                                    </a>
+                                </p>
+                            </form>
+                        </div>
+
+                        <div class="index-hero__scheme">
+                            <img
+                                src="/images/hero-car.png"
+                                alt="Схема автомобиля"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            @@include('./components/sections/features.html')
+        </main>
+
+        <script src="./js/main.min.js"></script>
+    </body>
 </html>
