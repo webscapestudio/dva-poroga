@@ -1,6 +1,7 @@
-import { Swiper } from 'swiper'
+import Swiper from 'swiper'
 
 export const sliders = () => {
+  // eslint-disable-next-line no-new
   new Swiper('.mySwiper', {
     slidesPerView: 2,
     navigation: {
