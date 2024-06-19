@@ -65,3 +65,25 @@ button {
 .uppercase {
     text-transform: uppercase;
 }
+
+.section {
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 1440px) {
+    .section {
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        margin-top: 80px;
+    }
+}
