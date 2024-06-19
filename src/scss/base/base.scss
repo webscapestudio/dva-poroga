@@ -4,25 +4,26 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    outline: none;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
 }
 
 html,
 body {
-    overflow-x: hidden;
-    font-size: 16px;
-    height: 100%;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
+  overflow-x: hidden;
+  font-size: 16px;
+  height: 100%;
+  line-height: 140%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    color: $text;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  color: $text;
 }
 
 h1,
@@ -31,59 +32,59 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 button {
-    cursor: pointer;
-    display: inline-block;
-    border: none;
-    padding: 0;
-    background: transparent;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  padding: 0;
+  background: transparent;
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .section {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 @media screen and (max-width: 1440px) {
-    .section {
-        margin-top: 140px;
-    }
+  .section {
+    margin-top: 140px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .section {
-        margin-top: 100px;
-    }
+  .section {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .section {
-        margin-top: 80px;
-    }
+  .section {
+    margin-top: 80px;
+  }
 }
