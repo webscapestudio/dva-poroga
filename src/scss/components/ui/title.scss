@@ -33,6 +33,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .h2 {
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .h1 {
     br {
