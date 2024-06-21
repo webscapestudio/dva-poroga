@@ -261,6 +261,8 @@
   .footer-left {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
   }
   .footer__nav-list {
     grid-template-columns: 1fr;
