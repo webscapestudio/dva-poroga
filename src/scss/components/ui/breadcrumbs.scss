@@ -1,0 +1,20 @@
+.breadcrumbs-section {
+  margin-top: 40px;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  svg {
+    display: block;
+  }
+
+  a {
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: $red;
+    }
+  }
+}
