@@ -14,12 +14,23 @@ export const sliders = () => {
         slidesPerView: 3
       },
       1440: {
-        slidesPerView: 3
+        slidesPerView: 4
       }
     },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
+    }
+  })
+
+  // eslint-disable-next-line no-new
+  new Swiper('.installing-section__slider', {
+    spaceBetween: 16,
+    slidesPerView: 1,
+    loop: true,
+    navigation: {
+      nextEl: '.installing-swiper-button-next',
+      prevEl: '.installing-swiper-button-prev'
     }
   })
 }
